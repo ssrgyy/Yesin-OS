@@ -1,0 +1,16 @@
+.snake_menu_block {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: auto;
+}
+
+.snake_menu {
+    width: 80%;
+    height: 80%;
+
+    margin-top: 50px;
+}

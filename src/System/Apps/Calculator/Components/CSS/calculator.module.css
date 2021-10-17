@@ -1,0 +1,136 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+
+.calculator > div {
+    display: flex;
+}
+
+.calculator button {
+    border-radius: 0;
+    border: 0;
+
+    background-color: transparent;
+}
+
+.calculator button:hover {
+    background-color: #D3D3D3;
+}
+
+.calculator button:active {
+    background-color: #808080;
+}
+
+.calculate_block {
+    flex-direction: column;
+
+    width: 100%;
+    height: 25%;
+
+    background-color: #FFFFFF;
+}
+
+.calculate_block > div {
+    display: flex;
+
+    width: 100%;
+}
+
+.input_block {
+    justify-content: center;
+    height: 100%;
+}
+
+.calculate_input {
+    width: 100%;
+    height: 100%;
+
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    padding-left: 5px;
+    font-size: 3.5rem;
+
+    background-color: transparent;
+}
+
+.buttons_block {
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+
+.buttons_block > div {
+    display: flex;
+}
+
+.buttons_block button {
+    font-size: 2rem;
+}
+
+.clear_buttons {
+    width: 100%;
+    height: 15%;
+
+    background-color: #EFEFEF;
+}
+
+.clear_buttons button {
+    width: 100%;
+    height: 100%;
+
+    font-size: 1.5rem;
+}
+
+.mathsign_block button {    
+    font-size: 1.5rem;
+}
+
+.mathbuttons {
+    width: 100%;
+    height: 100%;
+}
+
+.main_mathbuttons {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #EFEFEF;
+}
+
+.main_mathbuttons > div {
+    width: 100%;
+    height: 100%;
+}
+
+.main_mathbuttons > div > button {
+    width: 33.33%;
+    height: 100%;
+}
+
+#zero_button {
+    width: 66.66%;
+}
+
+#equals_button:active {
+    background-color: #FFFFFF;
+}
+
+.additional_mathbuttons {
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.additional_mathbuttons > button {
+    height: 25%;
+}

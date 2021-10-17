@@ -1,0 +1,95 @@
+$size: 10px;
+$offset: -5px;
+$position: absolute;
+
+.sizebox_top_left {
+    width: $size;
+    height: $size;
+    position: $position;
+    top: $offset;
+    left: $offset;
+}
+
+.sizebox_top {
+    width: 100%;
+    height: $size;
+    position: $position;
+    top: $offset;
+}
+
+.sizebox_top_right {
+    width: $size;
+    height: $size;
+    position: $position;
+    top: $offset;
+    right: $offset;
+}
+
+.sizebox_right {
+    width: $size;
+    height: 100%;
+    position: $position;
+    right: $offset;
+}
+
+.sizebox_bottom_right {
+    width: $size;
+    height: $size;
+    position: $position;
+    bottom: $offset;
+    right: $offset;
+}
+
+.sizebox_bottom {
+    width: 100%;
+    height: $size;
+    position: $position;
+    bottom: $offset;
+}
+
+.sizebox_bottom_left {
+    width: $size;
+    height: $size;
+    position: $position;
+    bottom: $offset;
+    left: $offset;
+}
+
+.sizebox_left {
+    width: $size;
+    height: 100%;
+    position: $position;
+    left: $offset;
+}
+
+.sizebox_top_left:hover {
+    cursor: nw-resize;
+}
+
+.sizebox_top:hover {
+    cursor: n-resize;
+}
+
+.sizebox_top_right:hover {
+    cursor: ne-resize;
+}
+
+.sizebox_right:hover {
+    cursor: w-resize;
+}
+
+.sizebox_bottom_right:hover {
+    cursor: se-resize;
+}
+
+.sizebox_bottom:hover {
+    cursor: s-resize;
+}
+
+.sizebox_bottom_left:hover {
+    cursor: sw-resize;
+}
+
+.sizebox_left:hover {
+    cursor: e-resize;
+}

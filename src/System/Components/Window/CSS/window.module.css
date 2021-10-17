@@ -1,0 +1,10 @@
+.window > div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.window_content {
+    background-color: #FFFFFF;
+    overflow: auto;
+}

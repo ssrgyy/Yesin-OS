@@ -1,0 +1,39 @@
+.appbar {
+    display: flex;
+    flex-wrap: wrap;
+
+    overflow: auto;
+
+    max-width: 95%;
+    min-width: 60px;
+    height: 66px;
+    border-radius: 15px;;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.8);
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 10px 12px;
+    padding: 3px;
+}
+
+.item.active {
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.item:last-child {
+    margin-right: 15px;
+}
+
+.item:hover {
+    cursor: pointer;
+
+    position: relative;
+    bottom: 10px;
+}

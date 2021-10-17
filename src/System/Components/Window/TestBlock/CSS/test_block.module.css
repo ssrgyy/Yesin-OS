@@ -1,0 +1,39 @@
+.test_block, .test_block button, .test_block input {
+    font-size: 1.3rem;
+}
+
+.test_block fieldset {
+    margin: 5px;
+    padding: 5px;
+}
+
+.test_block span {
+    margin: 5px;
+    padding: 5px;
+}
+
+.test_block input {
+    width: 120px;
+}
+
+.test_block button {
+    margin: 5px 3px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+#test_block_name_input {
+    width: 300px;
+}
+
+.test_block_input_error {
+    outline-color: red;
+}
+
+.test_block_status_ok {
+    color: green;
+}
+
+.test_block_status_error {
+    color: red;
+}

@@ -1,0 +1,14 @@
+.item {
+    background-color: #88DA74;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #44b44d;
+}
+
+.item:focus, .item:active {
+    outline: 0;
+    border-color: #FFFFFF;
+}

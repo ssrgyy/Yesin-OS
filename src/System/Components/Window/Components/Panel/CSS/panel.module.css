@@ -1,0 +1,87 @@
+.panel {
+    overflow: hidden;
+}
+
+.colorbox {
+    height: 100%;
+}
+
+.control_panel, .additional_control_panel {
+    display: flex;
+    height: 100%;
+}
+
+#control_panel {
+    float: right;
+    width: 100px;
+}
+
+#additional_control_panel {
+    float: left;
+    width: 33px;
+}
+
+.close_button:hover {
+    background-color: #FF0000;
+}
+
+.close_button {
+    background-image: url('../../../../../Resources/Icons/Window/close_button.svg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.full_button:hover, .hide_button:hover {
+    background-color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.full_button {
+    background-image: url('../../../../../Resources/Icons/Window/full_button.svg');
+    background-size: 40%;
+}
+
+.hide_button {
+    background-image: url('../../../../../Resources/Icons/Window/hide_button.svg');
+    background-size: 35%;
+}
+
+.control_panel > div, .additional_control_panel > div {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.reset_button:hover {
+    background-color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.reset_button {
+    background-image: url('../../../../../Resources/Icons/Window/center_button.svg');
+    background-size: 60%;
+}
+
+.text_panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+    overflow: hidden;
+}
+
+.text_panel > p {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    white-space: nowrap;
+	color: #000000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 90%;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
